@@ -1,4 +1,3 @@
-"# Housing-Recommendation-system" 
 🏡 Housing Recommendation System using KNN
 
 This project implements a housing recommendation system using the **K-Nearest Neighbors (KNN)** algorithm to suggest rental listings based on user-defined preferences. The model is built in Python and uses basic preprocessing techniques and cosine similarity for neighbor retrieval.
