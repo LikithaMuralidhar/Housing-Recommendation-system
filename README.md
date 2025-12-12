@@ -1,9 +1,9 @@
-🏡 Housing Recommendation System using KNN
+Housing Recommendation System using KNN
 
 This project implements a housing recommendation system using the **K-Nearest Neighbors (KNN)** algorithm to suggest rental listings based on user-defined preferences. The model is built in Python and uses basic preprocessing techniques and cosine similarity for neighbor retrieval.
 
 
-📂 Project Overview
+Project Overview
 
 The system processes a dataset of rental listings and provides personalized recommendations by:
 
@@ -13,7 +13,7 @@ The system processes a dataset of rental listings and provides personalized reco
 - Applying the KNN model with cosine similarity
 - Defining a dynamic recommendation function using user input
 
-⚙️ Workflow Summary
+Workflow Summary
 
 1. **Import Libraries**: 
    - Uses `pandas`, `numpy`, `sklearn`, etc.
@@ -35,21 +35,20 @@ The system processes a dataset of rental listings and provides personalized reco
    - Accepts any number of user-defined attributes via `**kwargs`.
    - Validates user input against dataset columns.
    - Queries the trained KNN model to return the top 6 similar listings.
-
-🧪 Example Usage
+Example Usage
 
 ```python
 recommend_housing(location='Bangalore', BHK=2, size=1000)
 ```
 You can enter any number of criteria to get relevant recommendations.
 
-📌 Requirements
+Requirements
 
 - Python 3.7+
 - pandas
 - numpy
 - scikit-learn
 
-📈 Output
+Output
 
 The system returns the top 6 housing listings most similar to the user's preferences based on cosine similarity.
